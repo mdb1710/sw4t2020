@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { Button } from 'semantic-ui-react';
 
 const Layout = ({ children }) => (
   <>
@@ -14,6 +15,7 @@ const Layout = ({ children }) => (
       </Link>
     </nav>
     <main>{children}</main>
+    <Button>Home</Button>
     <style jsx>{`
       nav {
         text-align: center;
