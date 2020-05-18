@@ -17,6 +17,7 @@ const Layout = ({ children }) => (
     <style jsx>{`
       nav {
         text-align: center;
+        background-color: red;
       }
       nav a {
         margin-right: 2px;
