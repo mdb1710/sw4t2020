@@ -16,7 +16,7 @@ const Layout = ({ children }) => (
       </Link>
     </nav>
     <main>{children}</main>
-    <button>Home</button>
+    <button className='button is-black'>Home</button>
     <style jsx>{`
       nav {
         text-align: center;
