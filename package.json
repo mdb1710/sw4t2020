@@ -9,9 +9,13 @@
     "export": "npm run build && next export"
   },
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "bulma": "^0.8.2",
     "next": "latest",
+    "node-sass": "^4.14.1",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "reactbulma": "^3.0.4"
   },
   "devDependencies": {
     "frontmatter-markdown-loader": "^2.0.0"

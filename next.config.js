@@ -1,5 +1,6 @@
 const fs = require('fs')
 const blogPostsFolder = './content/blogPosts'
+const bulmaCss = './bulma/css/bulma.css';
 
 const getPathsForPosts = () =>
   fs.readdirSync(blogPostsFolder).reduce((acc, blogName) => {

@@ -1,8 +1,10 @@
 import Link from 'next/link'
+// import 'bulma/css/bulma.css';
+ 
 
 const Layout = ({ children }) => (
   <>
-    <nav>
+    <nav className='navbar'>
       <Link href="/">
         <a>home</a>
       </Link>
@@ -14,10 +16,12 @@ const Layout = ({ children }) => (
       </Link>
     </nav>
     <main>{children}</main>
+    <button>Home</button>
     <style jsx>{`
       nav {
         text-align: center;
         background-color: red;
+        max-width: 50%;
       }
       nav a {
         margin-right: 2px;
